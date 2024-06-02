@@ -1,0 +1,30 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('bgimg.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+.game h1 {
+    margin-top: -30%; 
+}
+
+.game button {
+    margin-top: 10px; 
+
+}
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.buttons img{
+    width: 80px;
+    height: 80px;
+}
